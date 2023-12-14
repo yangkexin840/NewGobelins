@@ -1,0 +1,161 @@
+/*body*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    z-index: 10;
+    font-family: PhilosopherRegular;
+  }
+  #background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+  
+  /*menu*/
+  
+  .navbar-toggler { display: none; }
+    
+  .tm-nav {
+      position: fixed;
+      top: 0;
+      width: 100%; 
+  }
+  
+  .tm-nav ul {
+      display: flex;
+      align-items: center;
+      background-color: rgba(160, 151, 151, 0.5);
+      height: 70px;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .nav-item { 
+    list-style: none;
+    font-size: 10px;
+  }
+  
+  .nav-link {
+      color: #000000 ;
+      display: block;
+      font-size: 30px;
+      font-family: Classyvogueregular;
+      background:
+      linear-gradient(
+        to right,
+        rgba(100, 200, 200, 0),
+        rgba(100, 200, 200, 0) 
+      ),
+      linear-gradient(
+        to right,
+        #f694f8,
+        #f694f8,
+        #f694f8
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  .nav-link:hover,
+  .nav-link.current {
+      color: rgb(0, 183, 255)  ;
+      background-size: 0 3px, 100% 3px;
+  }
+
+.text{
+    display: flex;
+    position: absolute;
+    top: 175px;
+    width:  600px;
+    left: 200px;
+}
+.img{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+}
+
+.text2{
+    display: flex;
+    position: absolute;
+    top: 525px;
+    width:  600px;
+    left: 1000px;
+}
+.img2{
+    display: flex;
+    position: absolute;
+    top: 425px;
+    left: 200px;
+}
+h1{
+    display: flex;
+    position: absolute;
+    font-family: Classyvogueregular;
+    font-size: 35px;
+    top: 100px;
+    left: 200px;
+    text-decoration: underline overline #ffae00;
+}
+h2{
+    display: flex;
+    position: absolute;
+    font-family: Classyvogueregular;
+    font-size: 35px;
+    top: 800px;
+    left: 200px;
+    text-decoration: underline overline #ffae00;
+}
+
+.text3{
+    display: flex;
+    position: absolute;
+    top: 850px;
+    width:  600px;
+    left: 200px;
+}
+
+.img3{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 1200px;
+    height: 25%;
+}
+
+.carré{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: -20px;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #96D6A4;
+    z-index: 1;
+  }
+  .carré1{
+    display: flex;
+    position: absolute;
+    top: 520px;
+    right: -20px;
+    width: 500px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #98D1E9;
+    z-index: 1;
+  }
